@@ -1,0 +1,13 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# AWS / secrets — never commit credentials
+*.pem
+*.ppk
+.env
+credentials
+aws-exports.js
